@@ -237,8 +237,8 @@
     ),
     12 => 
     array (
-      'name' => 'when',
-      'label' => 'calendrier',
+      'name' => 'calendar',
+      'label' => 'Occurence',
       'type' => 'repeater',
       'default' => '',
       'info' => '',
