@@ -258,42 +258,41 @@
               0 => 
               array (
                 'name' => 'startDate',
-                'label' => 'Start Date',
+                'label' => 'Date début',
+                'width' => '1-4',
                 'type' => 'date',
               ),
               1 => 
               array (
                 'name' => 'startHour',
-                'label' => 'Start Hour',
+                'label' => 'Heure début',
+                'width' => '1-4',
                 'type' => 'time',
               ),
               2 => 
               array (
                 'name' => 'endDate',
-                'label' => 'End Date',
+                'label' => 'Date fin',
+                'width' => '1-4',
                 'type' => 'date',
               ),
               3 => 
               array (
                 'name' => 'endHour',
-                'label' => 'End Hour',
+                'label' => 'Heure fin',
+                'width' => '1-4',
                 'type' => 'time',
               ),
               4 => 
               array (
-                'name' => 'duration',
+                'name' => 'synthax',
                 'type' => 'text',
-                'label' => 'Duration',
+                'label' => 'Syntaxe',
                 'options' => 
                 array (
                   'type' => 'number',
                 ),
-              ),
-              5 => 
-              array (
-                'name' => 'cancel',
-                'type' => 'boolean',
-              ),
+              )
             ),
           ),
         ),
