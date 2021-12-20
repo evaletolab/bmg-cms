@@ -9,8 +9,8 @@ etat
 id
 commentaire
 
-
-# image
+#
+# image (limiter à jpg et png)
 photo
 credit_photo
 

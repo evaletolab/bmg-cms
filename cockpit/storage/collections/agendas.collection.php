@@ -1,8 +1,8 @@
 <?php
  return array (
-  'name' => 'Agenda',
+  'name' => 'agendas',
   'label' => 'Agenda',
-  '_id' => 'Agenda',
+  '_id' => 'agendas',
   'fields' => 
   array (
     0 => 
