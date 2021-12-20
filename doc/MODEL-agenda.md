@@ -3,10 +3,9 @@
 # Agenda
 #
 
-# state
+# Etat
 responsable
-etat
-id
+etat (validé)
 commentaire
 
 #
@@ -21,12 +20,11 @@ intervenant
 fiche_technique
 typologie (projection, conf, table ronde)
 cycle (exposition temporaire, cycle d'ateliers, )
-URL-evenement-MEG
+URL-projet
 texte
 texte2
 
 moderation
-
 thématique-annuelle (true/false)
 
 # liste
@@ -40,6 +38,7 @@ heure_fin
 minute_fin
 synthax
 
+# collection
 ## lieu
 nom
 adresse

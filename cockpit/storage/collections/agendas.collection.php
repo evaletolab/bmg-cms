@@ -352,7 +352,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1634049109,
-  '_modified' => 1634284445,
+  '_modified' => 1640017847,
   'color' => '#A0D468',
   'acl' => 
   array (
@@ -392,4 +392,5 @@
       'enabled' => false,
     ),
   ),
+  'icon' => 'calendar.svg',
 );

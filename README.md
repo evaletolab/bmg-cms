@@ -34,8 +34,8 @@
 # shell 
 
 ``` bash
-sudo docker ps
-sudo docker exec -it [ID] /bin/bash
+docker ps
+docker exec -it [ID] /bin/bash
 tail -f /var/log/apache2/error.log
 sudo docker stop [ID]
 ```

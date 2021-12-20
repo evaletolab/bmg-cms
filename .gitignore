@@ -48,8 +48,8 @@ package-lock.json
 cockpit/assets/*
 cockpit/lib/*
 cockpit/install/*
+cockpit/storage/api*
 cockpit/modules/*
-cockpit/storage/*
 cockpit/tests/*
 /node_modules
 
