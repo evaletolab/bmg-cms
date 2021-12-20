@@ -51,7 +51,6 @@ cockpit/install/*
 cockpit/modules/*
 cockpit/storage/*.*
 cockpit/storage/*/*
-cockpit/config/*
 cockpit/tests/*
 /node_modules
 
