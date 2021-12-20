@@ -121,7 +121,7 @@
     6 => 
     array (
       'name' => 'type_evenement',
-      'label' => 'Typoelogie',
+      'label' => 'Typologie',
       'type' => 'text',
       'default' => '',
       'info' => '',
