@@ -21,7 +21,7 @@
 # run docker
 
 * `export APP_HOME=/home/evaleto/nodejs/evaletolab.ch/bmg-cockpit/cockpit/`
-* `sudo docker run -i -t -p "8080:80" -v "./cockpit:/var/www/html"  self/cockpit:latest`
+* `sudo docker run -i -t -p "8080:80" -v "${APP_HOME}:/var/www/html"  self/cockpit:latest`
 
 # remove images
 
