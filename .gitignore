@@ -49,8 +49,7 @@ cockpit/assets/*
 cockpit/lib/*
 cockpit/install/*
 cockpit/modules/*
-cockpit/storage/*.*
-cockpit/storage/*/*
+cockpit/storage/*
 cockpit/tests/*
 /node_modules
 
