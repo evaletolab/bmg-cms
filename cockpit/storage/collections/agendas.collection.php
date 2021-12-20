@@ -44,6 +44,28 @@
     ),
     2 => 
     array (
+      'name' => 'edition',
+      'label' => '',
+      'type' => 'collectionlinkselect',
+      'default' => '',
+      'info' => '',
+      'group' => 'header',
+      'localize' => false,
+      'options' => 
+      array (
+        'link' => 'edition',
+        'multiple' => false,
+        'display' => 'name',
+      ),
+      'width' => '1-1',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => true,
+    ),
+    3 => 
+    array (
       'name' => 'titre',
       'label' => 'titre',
       'type' => 'text',
@@ -61,7 +83,7 @@
       ),
       'required' => true,
     ),
-    3 => 
+    4 => 
     array (
       'name' => 'soustitre',
       'label' => 'soustitre',
@@ -80,7 +102,7 @@
       ),
       'required' => false,
     ),
-    4 => 
+    5 => 
     array (
       'name' => 'fiche_technique',
       'label' => 'Fiche Technique',
@@ -99,7 +121,7 @@
       ),
       'required' => false,
     ),
-    5 => 
+    6 => 
     array (
       'name' => 'categorie',
       'label' => 'Categorie',
@@ -118,7 +140,7 @@
       ),
       'required' => true,
     ),
-    6 => 
+    7 => 
     array (
       'name' => 'type_evenement',
       'label' => 'Typologie',
@@ -137,7 +159,7 @@
       ),
       'required' => true,
     ),
-    7 => 
+    8 => 
     array (
       'name' => 'collaboration',
       'label' => 'Collaboration',
@@ -156,10 +178,10 @@
       ),
       'required' => false,
     ),
-    8 => 
+    9 => 
     array (
-      'name' => 'url_meg',
-      'label' => 'URL événement MEG',
+      'name' => 'url',
+      'label' => 'URL événement ',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -175,7 +197,7 @@
       ),
       'required' => false,
     ),
-    9 => 
+    10 => 
     array (
       'name' => 'text',
       'label' => 'Rédact.',
@@ -194,7 +216,7 @@
       ),
       'required' => true,
     ),
-    10 => 
+    11 => 
     array (
       'name' => 'text2',
       'label' => 'Rédact.2',
@@ -213,7 +235,77 @@
       ),
       'required' => false,
     ),
-    11 => 
+    12 => 
+    array (
+      'name' => 'when',
+      'label' => 'calendrier',
+      'type' => 'repeater',
+      'default' => '',
+      'info' => '',
+      'group' => 'calendrier',
+      'localize' => false,
+      'options' => 
+      array (
+        'field' => 
+        array (
+          'type' => 'set',
+          'label' => ' ',
+          'display' => 'startDate',
+          'options' => 
+          array (
+            'fields' => 
+            array (
+              0 => 
+              array (
+                'name' => 'startDate',
+                'label' => 'Start Date',
+                'type' => 'date',
+              ),
+              1 => 
+              array (
+                'name' => 'startHour',
+                'label' => 'Start Hour',
+                'type' => 'time',
+              ),
+              2 => 
+              array (
+                'name' => 'endDate',
+                'label' => 'End Date',
+                'type' => 'date',
+              ),
+              3 => 
+              array (
+                'name' => 'endHour',
+                'label' => 'End Hour',
+                'type' => 'time',
+              ),
+              4 => 
+              array (
+                'name' => 'duration',
+                'type' => 'text',
+                'label' => 'Duration',
+                'options' => 
+                array (
+                  'type' => 'number',
+                ),
+              ),
+              5 => 
+              array (
+                'name' => 'cancel',
+                'type' => 'boolean',
+              ),
+            ),
+          ),
+        ),
+      ),
+      'width' => '1-1',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => true,
+    ),
+    13 => 
     array (
       'name' => 'date_debut',
       'label' => 'Date début',
@@ -233,7 +325,7 @@
       ),
       'required' => true,
     ),
-    12 => 
+    14 => 
     array (
       'name' => 'heure_debut',
       'label' => 'Heure début',
@@ -252,7 +344,7 @@
       ),
       'required' => true,
     ),
-    13 => 
+    15 => 
     array (
       'name' => 'date_fin',
       'label' => 'Date fin',
@@ -272,7 +364,7 @@
       ),
       'required' => true,
     ),
-    14 => 
+    16 => 
     array (
       'name' => 'heure_fin',
       'label' => 'Heure fin',
@@ -291,7 +383,7 @@
       ),
       'required' => true,
     ),
-    15 => 
+    17 => 
     array (
       'name' => 'synthax',
       'label' => 'Syntaxe ',
@@ -310,7 +402,7 @@
       ),
       'required' => true,
     ),
-    16 => 
+    18 => 
     array (
       'name' => 'photo',
       'label' => 'Photo',
@@ -329,7 +421,7 @@
       ),
       'required' => false,
     ),
-    17 => 
+    19 => 
     array (
       'name' => 'credit_photo',
       'label' => 'credit photo',
@@ -352,7 +444,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1634049109,
-  '_modified' => 1640017847,
+  '_modified' => 1640020344,
   'color' => '#A0D468',
   'acl' => 
   array (
