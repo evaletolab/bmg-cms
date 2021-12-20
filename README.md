@@ -10,6 +10,9 @@
 * `git clone https://github.com/raffaelj/cockpit_ImageResize.git addons/ImageResize`
 * `git clone https://github.com/pauloamgomes/CockpitCMS-Helpers addons/Helpers`
 
+# install docker
+* https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
+
 # build docker image
 * `source alias.sh`
 * `docker build -t self/cockpit - < Dockerfile`
@@ -21,7 +24,7 @@
 # run docker
 
 * `export APP_HOME=/home/evaleto/nodejs/evaletolab.ch/bmg-cockpit/cockpit/`
-* `sudo docker run -i -t -p "8080:80" -v "./cockpit:/var/www/html"  self/cockpit:latest`
+* `sudo docker run -i -t -p "8080:80" -v "${APP_HOME}:/var/www/html"  self/cockpit:latest`
 
 # remove images
 
