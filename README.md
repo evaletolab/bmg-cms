@@ -4,10 +4,14 @@
 * remove `config.yaml` file
 * `cp cockpi-config.php => ./cockpit/config/`
 
+# doc
+* https://github.com/raffaelj/cockpit-scripts/tree/master/custom-fields
+* https://getcockpit.com/documentation/reference/fieldtypes
+* https://discourse.getcockpit.com/
 
 # install addons
 
-* `git clone https://github.com/raffaelj/cockpit_ImageResize.git addons/ImageResize`
+* `git clone https://github.com/raffaelj/cockpit_ImageResize addons/ImageResize`
 * `git clone https://github.com/pauloamgomes/CockpitCMS-Helpers addons/Helpers`
 
 # install docker

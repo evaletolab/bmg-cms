@@ -17,7 +17,7 @@ package-lock.json
 addons/
 !.gitignore
 !.gitkeep
-!/storage/*/index.html
+!/storage/*/*.sqlite
 !/storage/*/.htaccess
 defines.php
 # Sublime Text

@@ -51,6 +51,7 @@ cockpit/install/*
 cockpit/storage/api*
 cockpit/modules/*
 cockpit/tests/*
+cockpit*.tar.gz
 /node_modules
 
 !.gitignore
