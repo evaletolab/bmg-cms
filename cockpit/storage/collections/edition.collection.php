@@ -68,10 +68,19 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1640020009,
-  '_modified' => 1640020105,
+  '_modified' => 1640078426,
   'color' => '#AC92EC',
   'acl' => 
   array (
+    'public' => 
+    array (
+      'entries_view' => true,
+    ),
+    'author' => 
+    array (
+      'entries_view' => true,
+      'entries_create' => true,
+    ),
   ),
   'sort' => 
   array (
