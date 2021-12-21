@@ -58,7 +58,7 @@
         'display' => 'name',
       ),
       'width' => '1-1',
-      'lst' => false,
+      'lst' => true,
       'acl' => 
       array (
       ),
@@ -324,108 +324,11 @@
     ),
     14 => 
     array (
-      'name' => 'date_debut',
-      'label' => 'Date début',
-      'type' => 'date',
-      'default' => '',
-      'info' => '',
-      'group' => '2.Calendrier',
-      'localize' => false,
-      'options' => 
-      array (
-        'format' => 'DD-MM-YYYY',
-      ),
-      'width' => '1-4',
-      'lst' => true,
-      'acl' => 
-      array (
-      ),
-      'required' => true,
-    ),
-    15 => 
-    array (
-      'name' => 'heure_debut',
-      'label' => 'Heure début',
-      'type' => 'time',
-      'default' => '',
-      'info' => '',
-      'group' => '2.Calendrier',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-4',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => true,
-    ),
-    16 => 
-    array (
-      'name' => 'date_fin',
-      'label' => 'Date fin',
-      'type' => 'date',
-      'default' => '',
-      'info' => '',
-      'group' => '2.Calendrier',
-      'localize' => false,
-      'options' => 
-      array (
-        'format' => 'DD-MM-YYYY',
-      ),
-      'width' => '1-4',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => true,
-    ),
-    17 => 
-    array (
-      'name' => 'heure_fin',
-      'label' => 'Heure fin',
-      'type' => 'time',
-      'default' => '',
-      'info' => '',
-      'group' => '2.Calendrier',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-4',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => true,
-    ),
-    18 => 
-    array (
-      'name' => 'synthax',
-      'label' => 'Syntaxe ',
-      'type' => 'text',
-      'default' => '',
-      'info' => 'Horaires',
-      'group' => '2.Calendrier',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-1',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => true,
-    ),
-    19 => 
-    array (
       'name' => 'photo',
-      'label' => 'Photo',
+      'label' => 'Photo (format jpg)',
       'type' => 'image',
       'default' => '',
-      'info' => '',
+      'info' => 'Attention format JPG',
       'group' => '4.Photo',
       'localize' => false,
       'options' => 
@@ -438,7 +341,7 @@
       ),
       'required' => false,
     ),
-    20 => 
+    15 => 
     array (
       'name' => 'credit_photo',
       'label' => 'credit photo',
@@ -461,7 +364,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1634049109,
-  '_modified' => 1640076190,
+  '_modified' => 1640079979,
   'color' => '#A0D468',
   'acl' => 
   array (

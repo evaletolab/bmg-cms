@@ -322,7 +322,7 @@
               array (
                 'type' => 'image',
                 'name' => 'image',
-                'label' => 'image',
+                'label' => 'image (format jpg)',
               ),
             ),
           ),
@@ -339,7 +339,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1640017225,
-  '_modified' => 1640078462,
+  '_modified' => 1640080049,
   'color' => '',
   'acl' => 
   array (
