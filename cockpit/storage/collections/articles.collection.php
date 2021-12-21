@@ -7,17 +7,17 @@
   array (
     0 => 
     array (
-      'name' => 'responsable',
-      'label' => 'responsable',
-      'type' => 'account-link',
+      'name' => 'etat',
+      'label' => 'publié',
+      'type' => 'boolean',
       'default' => '',
       'info' => '',
-      'group' => 'meta',
+      'group' => '1.Meta',
       'localize' => false,
       'options' => 
       array (
       ),
-      'width' => '1-3',
+      'width' => '1-2',
       'lst' => true,
       'acl' => 
       array (
@@ -26,17 +26,17 @@
     ),
     1 => 
     array (
-      'name' => 'etat',
-      'label' => 'publié',
-      'type' => 'boolean',
+      'name' => 'responsable',
+      'label' => 'responsable',
+      'type' => 'account-link',
       'default' => '',
       'info' => '',
-      'group' => 'meta',
+      'group' => '1.Meta',
       'localize' => false,
       'options' => 
       array (
       ),
-      'width' => '1-3',
+      'width' => '1-2',
       'lst' => true,
       'acl' => 
       array (
@@ -50,7 +50,7 @@
       'type' => 'textarea',
       'default' => '',
       'info' => '',
-      'group' => 'meta',
+      'group' => '1.Meta',
       'localize' => false,
       'options' => 
       array (
@@ -64,12 +64,34 @@
     ),
     3 => 
     array (
+      'name' => 'edition',
+      'label' => 'Édition',
+      'type' => 'collectionlinkselect',
+      'default' => '',
+      'info' => '',
+      'group' => '1.Meta',
+      'localize' => false,
+      'options' => 
+      array (
+        'link' => 'edition',
+        'multiple' => false,
+        'display' => 'name',
+      ),
+      'width' => '1-1',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+      'required' => true,
+    ),
+    4 => 
+    array (
       'name' => 'titre',
       'label' => 'titre',
       'type' => 'text',
       'default' => '',
       'info' => '',
-      'group' => 'texte',
+      'group' => '2.Texte',
       'localize' => false,
       'options' => 
       array (
@@ -81,14 +103,14 @@
       ),
       'required' => true,
     ),
-    4 => 
+    5 => 
     array (
       'name' => 'sous_titre',
       'label' => 'sous titre',
       'type' => 'text',
       'default' => '',
       'info' => '',
-      'group' => 'texte',
+      'group' => '2.Texte',
       'localize' => false,
       'options' => 
       array (
@@ -100,33 +122,14 @@
       ),
       'required' => false,
     ),
-    5 => 
+    6 => 
     array (
       'name' => 'auteur',
       'label' => 'auteur',
       'type' => 'text',
       'default' => '',
       'info' => '',
-      'group' => 'meta',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-1',
-      'lst' => true,
-      'acl' => 
-      array (
-      ),
-      'required' => true,
-    ),
-    6 => 
-    array (
-      'name' => 'rubrique',
-      'label' => 'rubrique',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => 'meta',
+      'group' => '1.Meta',
       'localize' => false,
       'options' => 
       array (
@@ -140,18 +143,18 @@
     ),
     7 => 
     array (
-      'name' => 'corps',
-      'label' => 'corps de l\'article',
-      'type' => 'wysiwyg',
+      'name' => 'rubrique',
+      'label' => 'rubrique',
+      'type' => 'text',
       'default' => '',
       'info' => '',
-      'group' => 'texte',
+      'group' => '1.Meta',
       'localize' => false,
       'options' => 
       array (
       ),
       'width' => '1-1',
-      'lst' => false,
+      'lst' => true,
       'acl' => 
       array (
       ),
@@ -161,10 +164,10 @@
     array (
       'name' => 'chapeau',
       'label' => 'chapeau',
-      'type' => 'wysiwyg',
+      'type' => 'markdown',
       'default' => '',
       'info' => '',
-      'group' => 'texte',
+      'group' => '2.Texte',
       'localize' => false,
       'options' => 
       array (
@@ -178,12 +181,31 @@
     ),
     9 => 
     array (
-      'name' => 'notes',
-      'label' => 'notes et références',
-      'type' => 'wysiwyg',
+      'name' => 'corps',
+      'label' => 'corps de l\'article',
+      'type' => 'markdown',
       'default' => '',
       'info' => '',
-      'group' => 'texte',
+      'group' => '2.Texte',
+      'localize' => false,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => true,
+    ),
+    10 => 
+    array (
+      'name' => 'notes',
+      'label' => 'notes et références',
+      'type' => 'markdown',
+      'default' => '',
+      'info' => '',
+      'group' => '2.Texte',
       'localize' => false,
       'options' => 
       array (
@@ -195,14 +217,14 @@
       ),
       'required' => false,
     ),
-    10 => 
+    11 => 
     array (
       'name' => 'bibliographie',
       'label' => 'bibliographie',
-      'type' => 'wysiwyg',
+      'type' => 'markdown',
       'default' => '',
       'info' => '',
-      'group' => 'texte',
+      'group' => '2.Texte',
       'localize' => false,
       'options' => 
       array (
@@ -212,15 +234,16 @@
       'acl' => 
       array (
       ),
+      'required' => false,
     ),
-    11 => 
+    12 => 
     array (
       'name' => 'exergues',
       'label' => 'exergues',
       'type' => 'repeater',
       'default' => '',
       'info' => '',
-      'group' => 'texte',
+      'group' => '2.Texte',
       'localize' => false,
       'options' => 
       array (
@@ -240,14 +263,14 @@
       ),
       'required' => false,
     ),
-    12 => 
+    13 => 
     array (
       'name' => 'agenda_linked',
       'label' => 'assocations à l\' agenda ',
       'type' => 'collectionlink',
       'default' => '',
       'info' => '',
-      'group' => 'données',
+      'group' => '3.Données',
       'localize' => false,
       'options' => 
       array (
@@ -263,14 +286,14 @@
       ),
       'required' => false,
     ),
-    13 => 
+    14 => 
     array (
       'name' => 'images',
       'label' => 'images',
       'type' => 'repeater',
       'default' => '',
       'info' => '',
-      'group' => 'données',
+      'group' => '3.Données',
       'localize' => false,
       'options' => 
       array (
@@ -316,7 +339,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1640017225,
-  '_modified' => 1640020684,
+  '_modified' => 1640076329,
   'color' => '',
   'acl' => 
   array (

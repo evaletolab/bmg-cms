@@ -12,7 +12,7 @@
       'type' => 'boolean',
       'default' => '',
       'info' => '',
-      'group' => 'header',
+      'group' => '1.Meta',
       'localize' => false,
       'options' => 
       array (
@@ -30,7 +30,7 @@
       'type' => 'account-link',
       'default' => '',
       'info' => 'Owner',
-      'group' => 'header',
+      'group' => '1.Meta',
       'localize' => false,
       'options' => 
       array (
@@ -49,7 +49,7 @@
       'type' => 'collectionlinkselect',
       'default' => '',
       'info' => '',
-      'group' => 'header',
+      'group' => '1.Meta',
       'localize' => false,
       'options' => 
       array (
@@ -66,12 +66,30 @@
     ),
     3 => 
     array (
+      'name' => 'comment',
+      'label' => '',
+      'type' => 'markdown',
+      'default' => '',
+      'info' => '',
+      'group' => '1.Meta',
+      'localize' => false,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+    ),
+    4 => 
+    array (
       'name' => 'titre',
       'label' => 'titre',
       'type' => 'text',
       'default' => '',
       'info' => '',
-      'group' => 'main',
+      'group' => '3.Texte',
       'localize' => false,
       'options' => 
       array (
@@ -83,38 +101,19 @@
       ),
       'required' => true,
     ),
-    4 => 
+    5 => 
     array (
       'name' => 'soustitre',
       'label' => 'soustitre',
       'type' => 'text',
       'default' => '',
       'info' => '',
-      'group' => 'main',
+      'group' => '3.Texte',
       'localize' => false,
       'options' => 
       array (
       ),
       'width' => '1-1',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    5 => 
-    array (
-      'name' => 'fiche_technique',
-      'label' => 'Fiche Technique',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => 'main',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-3',
       'lst' => false,
       'acl' => 
       array (
@@ -123,31 +122,31 @@
     ),
     6 => 
     array (
-      'name' => 'categorie',
-      'label' => 'Categorie',
+      'name' => 'fiche_technique',
+      'label' => 'Fiche Technique',
       'type' => 'text',
       'default' => '',
       'info' => '',
-      'group' => 'main',
+      'group' => '3.Texte',
       'localize' => false,
       'options' => 
       array (
       ),
       'width' => '1-3',
-      'lst' => true,
+      'lst' => false,
       'acl' => 
       array (
       ),
-      'required' => true,
+      'required' => false,
     ),
     7 => 
     array (
-      'name' => 'type_evenement',
-      'label' => 'Typologie',
+      'name' => 'categorie',
+      'label' => 'Categorie',
       'type' => 'text',
       'default' => '',
       'info' => '',
-      'group' => 'main',
+      'group' => '3.Texte',
       'localize' => false,
       'options' => 
       array (
@@ -161,31 +160,31 @@
     ),
     8 => 
     array (
+      'name' => 'type_evenement',
+      'label' => 'Typologie',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '3.Texte',
+      'localize' => false,
+      'options' => 
+      array (
+      ),
+      'width' => '1-3',
+      'lst' => true,
+      'acl' => 
+      array (
+      ),
+      'required' => true,
+    ),
+    9 => 
+    array (
       'name' => 'collaboration',
       'label' => 'Collaboration',
       'type' => 'text',
       'default' => '',
       'info' => '',
-      'group' => 'main',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-1',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    9 => 
-    array (
-      'name' => 'url',
-      'label' => 'URL événement ',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => 'main',
+      'group' => '3.Texte',
       'localize' => false,
       'options' => 
       array (
@@ -199,12 +198,31 @@
     ),
     10 => 
     array (
+      'name' => 'url',
+      'label' => 'URL événement ',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '3.Texte',
+      'localize' => false,
+      'options' => 
+      array (
+      ),
+      'width' => '1-1',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => false,
+    ),
+    11 => 
+    array (
       'name' => 'text',
       'label' => 'Rédact.',
       'type' => 'markdown',
       'default' => '',
       'info' => '',
-      'group' => 'main',
+      'group' => '3.Texte',
       'localize' => false,
       'options' => 
       array (
@@ -216,14 +234,14 @@
       ),
       'required' => true,
     ),
-    11 => 
+    12 => 
     array (
       'name' => 'text2',
       'label' => 'Rédact.2',
       'type' => 'markdown',
       'default' => '',
       'info' => '',
-      'group' => 'main',
+      'group' => '3.Texte',
       'localize' => false,
       'options' => 
       array (
@@ -235,14 +253,14 @@
       ),
       'required' => false,
     ),
-    12 => 
+    13 => 
     array (
       'name' => 'calendar',
       'label' => 'Occurence',
       'type' => 'repeater',
       'default' => '',
       'info' => '',
-      'group' => 'calendrier',
+      'group' => '2.Calendrier',
       'localize' => false,
       'options' => 
       array (
@@ -292,7 +310,7 @@
                 array (
                   'type' => 'number',
                 ),
-              )
+              ),
             ),
           ),
         ),
@@ -304,14 +322,14 @@
       ),
       'required' => true,
     ),
-    13 => 
+    14 => 
     array (
       'name' => 'date_debut',
       'label' => 'Date début',
       'type' => 'date',
       'default' => '',
       'info' => '',
-      'group' => 'calendrier',
+      'group' => '2.Calendrier',
       'localize' => false,
       'options' => 
       array (
@@ -324,14 +342,14 @@
       ),
       'required' => true,
     ),
-    14 => 
+    15 => 
     array (
       'name' => 'heure_debut',
       'label' => 'Heure début',
       'type' => 'time',
       'default' => '',
       'info' => '',
-      'group' => 'calendrier',
+      'group' => '2.Calendrier',
       'localize' => false,
       'options' => 
       array (
@@ -343,14 +361,14 @@
       ),
       'required' => true,
     ),
-    15 => 
+    16 => 
     array (
       'name' => 'date_fin',
       'label' => 'Date fin',
       'type' => 'date',
       'default' => '',
       'info' => '',
-      'group' => 'calendrier',
+      'group' => '2.Calendrier',
       'localize' => false,
       'options' => 
       array (
@@ -363,14 +381,14 @@
       ),
       'required' => true,
     ),
-    16 => 
+    17 => 
     array (
       'name' => 'heure_fin',
       'label' => 'Heure fin',
       'type' => 'time',
       'default' => '',
       'info' => '',
-      'group' => 'calendrier',
+      'group' => '2.Calendrier',
       'localize' => false,
       'options' => 
       array (
@@ -382,14 +400,14 @@
       ),
       'required' => true,
     ),
-    17 => 
+    18 => 
     array (
       'name' => 'synthax',
       'label' => 'Syntaxe ',
       'type' => 'text',
       'default' => '',
       'info' => 'Horaires',
-      'group' => 'calendrier',
+      'group' => '2.Calendrier',
       'localize' => false,
       'options' => 
       array (
@@ -401,14 +419,14 @@
       ),
       'required' => true,
     ),
-    18 => 
+    19 => 
     array (
       'name' => 'photo',
       'label' => 'Photo',
       'type' => 'image',
       'default' => '',
       'info' => '',
-      'group' => 'photo',
+      'group' => '4.Photo',
       'localize' => false,
       'options' => 
       array (
@@ -420,14 +438,14 @@
       ),
       'required' => false,
     ),
-    19 => 
+    20 => 
     array (
       'name' => 'credit_photo',
       'label' => 'credit photo',
       'type' => 'text',
       'default' => '',
       'info' => '',
-      'group' => 'photo',
+      'group' => '4.Photo',
       'localize' => false,
       'options' => 
       array (
@@ -443,7 +461,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1634049109,
-  '_modified' => 1640020344,
+  '_modified' => 1640076190,
   'color' => '#A0D468',
   'acl' => 
   array (
