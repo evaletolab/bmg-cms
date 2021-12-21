@@ -43,6 +43,9 @@ return [
     'helpers'  => [
         'environment' => 'local'
     ],
+    'comments' => [
+        'collections' => ['articles','agendas']
+    ],
     'imageresize' => [
         'resize'       => true,        # (bool) default: true
 

@@ -35,6 +35,7 @@
       'localize' => false,
       'options' => 
       array (
+        'display' => 'name',
       ),
       'width' => '1-2',
       'lst' => true,
@@ -44,25 +45,6 @@
       'required' => true,
     ),
     2 => 
-    array (
-      'name' => 'commentaire',
-      'label' => '',
-      'type' => 'textarea',
-      'default' => '',
-      'info' => '',
-      'group' => '1.Meta',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-1',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    3 => 
     array (
       'name' => 'edition',
       'label' => 'Édition',
@@ -84,7 +66,7 @@
       ),
       'required' => true,
     ),
-    4 => 
+    3 => 
     array (
       'name' => 'titre',
       'label' => 'titre',
@@ -103,7 +85,7 @@
       ),
       'required' => true,
     ),
-    5 => 
+    4 => 
     array (
       'name' => 'sous_titre',
       'label' => 'sous titre',
@@ -122,7 +104,7 @@
       ),
       'required' => false,
     ),
-    6 => 
+    5 => 
     array (
       'name' => 'auteur',
       'label' => 'auteur',
@@ -141,7 +123,7 @@
       ),
       'required' => true,
     ),
-    7 => 
+    6 => 
     array (
       'name' => 'rubrique',
       'label' => 'rubrique',
@@ -160,7 +142,7 @@
       ),
       'required' => true,
     ),
-    8 => 
+    7 => 
     array (
       'name' => 'chapeau',
       'label' => 'chapeau',
@@ -179,7 +161,7 @@
       ),
       'required' => true,
     ),
-    9 => 
+    8 => 
     array (
       'name' => 'corps',
       'label' => 'corps de l\'article',
@@ -198,7 +180,7 @@
       ),
       'required' => true,
     ),
-    10 => 
+    9 => 
     array (
       'name' => 'notes',
       'label' => 'notes et références',
@@ -217,7 +199,7 @@
       ),
       'required' => false,
     ),
-    11 => 
+    10 => 
     array (
       'name' => 'bibliographie',
       'label' => 'bibliographie',
@@ -236,7 +218,7 @@
       ),
       'required' => false,
     ),
-    12 => 
+    11 => 
     array (
       'name' => 'exergues',
       'label' => 'exergues',
@@ -263,7 +245,7 @@
       ),
       'required' => false,
     ),
-    13 => 
+    12 => 
     array (
       'name' => 'agenda_linked',
       'label' => 'assocations à l\' agenda ',
@@ -286,7 +268,7 @@
       ),
       'required' => false,
     ),
-    14 => 
+    13 => 
     array (
       'name' => 'images',
       'label' => 'images',
@@ -339,7 +321,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1640017225,
-  '_modified' => 1640080049,
+  '_modified' => 1640103257,
   'color' => '',
   'acl' => 
   array (

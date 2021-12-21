@@ -66,24 +66,6 @@
     ),
     3 => 
     array (
-      'name' => 'comment',
-      'label' => '',
-      'type' => 'markdown',
-      'default' => '',
-      'info' => '',
-      'group' => '1.Meta',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-1',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-    ),
-    4 => 
-    array (
       'name' => 'titre',
       'label' => 'titre',
       'type' => 'text',
@@ -101,7 +83,7 @@
       ),
       'required' => true,
     ),
-    5 => 
+    4 => 
     array (
       'name' => 'soustitre',
       'label' => 'soustitre',
@@ -120,7 +102,7 @@
       ),
       'required' => false,
     ),
-    6 => 
+    5 => 
     array (
       'name' => 'fiche_technique',
       'label' => 'Fiche Technique',
@@ -139,7 +121,7 @@
       ),
       'required' => false,
     ),
-    7 => 
+    6 => 
     array (
       'name' => 'categorie',
       'label' => 'Categorie',
@@ -160,7 +142,7 @@
       ),
       'required' => true,
     ),
-    8 => 
+    7 => 
     array (
       'name' => 'type_evenement',
       'label' => 'Typologie',
@@ -181,7 +163,7 @@
       ),
       'required' => true,
     ),
-    9 => 
+    8 => 
     array (
       'name' => 'collaboration',
       'label' => 'Collaboration',
@@ -200,7 +182,7 @@
       ),
       'required' => false,
     ),
-    10 => 
+    9 => 
     array (
       'name' => 'url',
       'label' => 'URL événement ',
@@ -219,7 +201,7 @@
       ),
       'required' => false,
     ),
-    11 => 
+    10 => 
     array (
       'name' => 'text',
       'label' => 'Rédact.',
@@ -238,7 +220,7 @@
       ),
       'required' => true,
     ),
-    12 => 
+    11 => 
     array (
       'name' => 'text2',
       'label' => 'Rédact.2',
@@ -257,7 +239,7 @@
       ),
       'required' => false,
     ),
-    13 => 
+    12 => 
     array (
       'name' => 'calendar',
       'label' => 'Occurence',
@@ -326,7 +308,7 @@
       ),
       'required' => true,
     ),
-    14 => 
+    13 => 
     array (
       'name' => 'photo',
       'label' => 'Photo (format jpg)',
@@ -345,7 +327,7 @@
       ),
       'required' => false,
     ),
-    15 => 
+    14 => 
     array (
       'name' => 'credit_photo',
       'label' => 'credit photo',
@@ -368,7 +350,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1634049109,
-  '_modified' => 1640095733,
+  '_modified' => 1640103232,
   'color' => '#A0D468',
   'acl' => 
   array (
