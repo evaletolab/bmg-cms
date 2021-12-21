@@ -1,18 +1,16 @@
 <?php
-$app->bind('/get-autocomplete', function() {
+$app->bind('/get-autocomplete/:collection/:field', function($params) {
 
 $tags = [];
+$field = $params['field'];
 
-$options = ['fields' => ['tags' => true]]; // field name of your tags field
+$options = ['fields' => [$params['field'] => true]]; // field name of your tags field
 
-$entries = $this->module('collections')->find('pages', $options);
+$entries = $this->module('collections')->find($params['collection'], $options);
 
 if ($entries) {
     foreach($entries as $entry) {
-        if (!is_array($entry['tags'])) continue;
-        foreach($entry['tags'] as $tag) {
-            $tags[] = $tag;
-        }
+        $tags[] = $entry[$field];
     }
 }
 

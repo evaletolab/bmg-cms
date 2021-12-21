@@ -8,6 +8,7 @@
 * https://github.com/raffaelj/cockpit-scripts/tree/master/custom-fields
 * https://getcockpit.com/documentation/reference/fieldtypes
 * https://discourse.getcockpit.com/
+* https://github.com/agentejo/lime (micro web framework)
 
 # install addons
 

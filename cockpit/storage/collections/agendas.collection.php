@@ -143,13 +143,15 @@
     array (
       'name' => 'categorie',
       'label' => 'Categorie',
-      'type' => 'text',
+      'type' => 'text-autocomplete',
       'default' => '',
       'info' => '',
       'group' => '3.Texte',
       'localize' => false,
       'options' => 
       array (
+        'collection' => 'agendas',
+        'field' => 'categorie',
       ),
       'width' => '1-3',
       'lst' => true,
@@ -162,13 +164,15 @@
     array (
       'name' => 'type_evenement',
       'label' => 'Typologie',
-      'type' => 'text',
+      'type' => 'text-autocomplete',
       'default' => '',
       'info' => '',
       'group' => '3.Texte',
       'localize' => false,
       'options' => 
       array (
+        'collection' => 'agendas',
+        'field' => 'type_evenement',
       ),
       'width' => '1-3',
       'lst' => true,
@@ -364,7 +368,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1634049109,
-  '_modified' => 1640079979,
+  '_modified' => 1640095733,
   'color' => '#A0D468',
   'acl' => 
   array (
