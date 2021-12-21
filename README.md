@@ -13,6 +13,7 @@
 
 * `git clone https://github.com/raffaelj/cockpit_ImageResize addons/ImageResize`
 * `git clone https://github.com/pauloamgomes/CockpitCMS-Helpers addons/Helpers`
+* https://github.com/pauloamgomes/CockpitCMS-Moderation
 
 # install docker
 * https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04
