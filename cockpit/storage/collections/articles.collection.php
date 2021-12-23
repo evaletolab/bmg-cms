@@ -38,7 +38,7 @@
         'display' => 'name',
       ),
       'width' => '1-2',
-      'lst' => true,
+      'lst' => false,
       'acl' => 
       array (
       ),
@@ -321,7 +321,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1640017225,
-  '_modified' => 1640103257,
+  '_modified' => 1640103460,
   'color' => '',
   'acl' => 
   array (

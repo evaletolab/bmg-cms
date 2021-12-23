@@ -118,7 +118,17 @@
           4 => 
           array (
             'name' => 'location',
-            'type' => 'location',
+            'type' => 'location-ext',
+            'options' => 
+            array (
+              'latlng' => 
+              array (
+                'lat' => '46.2017298',
+                'lng' => '6.149041',
+                'address' => 'Genève',
+              ),
+              'zoomlevel' => '14',
+            ),
           ),
         ),
       ),
@@ -133,7 +143,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1640016925,
-  '_modified' => 1640078444,
+  '_modified' => 1640187224,
   'color' => '#4FC1E9',
   'acl' => 
   array (

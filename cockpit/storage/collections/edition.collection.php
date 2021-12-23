@@ -68,7 +68,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1640020009,
-  '_modified' => 1640078426,
+  '_modified' => 1640089686,
   'color' => '#AC92EC',
   'acl' => 
   array (
@@ -95,7 +95,7 @@
     ),
     'read' => 
     array (
-      'enabled' => false,
+      'enabled' => true,
     ),
     'update' => 
     array (
