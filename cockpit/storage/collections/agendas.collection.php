@@ -583,11 +583,167 @@
       ),
       'required' => false,
     ),
+    26 => 
+    array (
+      'name' => 'collaboration',
+      'label' => '',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '4.Propriétés',
+      'localize' => false,
+      'options' => 
+      array (
+      ),
+      'width' => '1-3',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => false,
+    ),
+    27 => 
+    array (
+      'name' => 'collaboration_url',
+      'label' => '',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '4.Propriétés',
+      'localize' => false,
+      'options' => 
+      array (
+        'type' => 'url',
+      ),
+      'width' => '2-3',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => false,
+    ),
+    28 => 
+    array (
+      'name' => 'partenaire',
+      'label' => '',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '4.Propriétés',
+      'localize' => false,
+      'options' => 
+      array (
+      ),
+      'width' => '1-3',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => false,
+    ),
+    29 => 
+    array (
+      'name' => 'partenaire_url',
+      'label' => '',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '4.Propriétés',
+      'localize' => false,
+      'options' => 
+      array (
+        'type' => 'url',
+      ),
+      'width' => '2-3',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => false,
+    ),
+    30 => 
+    array (
+      'name' => 'cadre',
+      'label' => '',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '4.Propriétés',
+      'localize' => false,
+      'options' => 
+      array (
+      ),
+      'width' => '1-3',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => false,
+    ),
+    31 => 
+    array (
+      'name' => 'cadre_url',
+      'label' => '',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '4.Propriétés',
+      'localize' => false,
+      'options' => 
+      array (
+        'type' => 'url',
+      ),
+      'width' => '2-3',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => false,
+    ),
+    32 => 
+    array (
+      'name' => 'soutien',
+      'label' => '',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '4.Propriétés',
+      'localize' => false,
+      'options' => 
+      array (
+      ),
+      'width' => '1-3',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => false,
+    ),
+    33 => 
+    array (
+      'name' => 'soutien_url',
+      'label' => '',
+      'type' => 'text',
+      'default' => '',
+      'info' => '',
+      'group' => '4.Propriétés',
+      'localize' => false,
+      'options' => 
+      array (
+        'type' => 'url',
+      ),
+      'width' => '2-3',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => false,
+    ),
   ),
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1634049109,
-  '_modified' => 1640258417,
+  '_modified' => 1640265247,
   'color' => '#A0D468',
   'acl' => 
   array (
