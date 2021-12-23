@@ -8,12 +8,16 @@
 * https://github.com/raffaelj/cockpit-scripts/tree/master/custom-fields
 * https://getcockpit.com/documentation/reference/fieldtypes
 * https://discourse.getcockpit.com/
-* https://github.com/agentejo/lime (micro web framework)
+* [https://github.com/agentejo/lime](lime, a php micro web framework)
+* [https://discourse.getcockpit.com/t/restrict-content-to-the-content-authors/285](restrict-content-to-the-content-authors)
+* [https://discourse.getcockpit.com/t/repeater-with-collectionlink/57](repeater-with-collectionlink)
+* [https://discourse.getcockpit.com/t/beginner-single-entry-read-permission/2195](beginner-single-entry-read-permission)
 
 # install addons
 
 * `git clone https://github.com/raffaelj/cockpit_ImageResize addons/ImageResize`
 * `git clone https://github.com/pauloamgomes/CockpitCMS-Helpers addons/Helpers`
+* `git clone https://github.com/pauloamgomes/CockpitCMS-Comments addons/Comments`
 * https://github.com/pauloamgomes/CockpitCMS-Moderation
 
 # install docker
