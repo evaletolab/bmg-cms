@@ -407,7 +407,7 @@
       'type' => 'file',
       'default' => '',
       'info' => '',
-      'group' => '',
+      'group' => '4.Propriétés',
       'localize' => false,
       'options' => 
       array (
