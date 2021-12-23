@@ -321,19 +321,28 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1640017225,
-  '_modified' => 1640103460,
+  '_modified' => 1640275257,
   'color' => '',
   'acl' => 
   array (
     'public' => 
     array (
-      'entries_edit' => true,
+      'entries_edit' => false,
+      'entries_view' => true,
     ),
     'author' => 
     array (
       'entries_view' => true,
       'entries_edit' => true,
       'entries_create' => true,
+      'entries_delete' => true,
+    ),
+    'editor' => 
+    array (
+      'entries_view' => true,
+      'entries_edit' => true,
+      'entries_create' => true,
+      'entries_delete' => true,
     ),
   ),
   'sort' => 

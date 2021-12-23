@@ -68,7 +68,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1640020009,
-  '_modified' => 1640089686,
+  '_modified' => 1640275309,
   'color' => '#AC92EC',
   'acl' => 
   array (
@@ -80,6 +80,15 @@
     array (
       'entries_view' => true,
       'entries_create' => true,
+      'entries_edit' => true,
+      'entries_delete' => true,
+    ),
+    'editor' => 
+    array (
+      'entries_view' => true,
+      'entries_edit' => true,
+      'entries_create' => true,
+      'entries_delete' => true,
     ),
   ),
   'sort' => 
@@ -95,7 +104,7 @@
     ),
     'read' => 
     array (
-      'enabled' => true,
+      'enabled' => false,
     ),
     'update' => 
     array (
