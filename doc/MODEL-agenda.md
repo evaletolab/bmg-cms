@@ -13,13 +13,13 @@ commentaire
 photo
 credit_photo
 
-# projet
+# Texte
 titre
 soustitre
 intervenant
 fiche_technique
-typologie (projection, conf, table ronde)
-cycle (exposition temporaire, cycle d'ateliers, )
+typologie (projection, table ronde)
+cycle (exposition temporaire, cycle d'ateliers )
 URL-projet
 texte
 texte2
@@ -27,27 +27,7 @@ texte2
 moderation
 thématique-annuelle (true/false)
 
-# liste
-# calendar
-date_debut
-date_fin
-horaire
-heure_debut
-minute_debut
-heure_fin
-minute_fin
-synthax
-
-# collection
-## lieu
-nom
-adresse
-phone
-details
-gps
-
-
-# details
+# Propriétés
 langue
 tarif
 jauge
@@ -58,6 +38,17 @@ Réservation phone
 Réservation url
 Réservation email
 
+# liste
+# Occurence et lieu
+lieu
+date_debut
+date_fin
+horaire
+heure_debut
+minute_debut
+heure_fin
+minute_fin
+synthax
 
 
 
@@ -71,11 +62,3 @@ cadre_url
 soutien
 soutien_url
 
-
-# trash
-tampon
-picto
-logo_partenaire
-secutix
-
-id_rel
