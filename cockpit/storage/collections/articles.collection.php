@@ -8,7 +8,7 @@
     0 => 
     array (
       'name' => 'etat',
-      'label' => 'publié',
+      'label' => 'État',
       'type' => 'boolean',
       'default' => '',
       'info' => '',
@@ -27,7 +27,7 @@
     1 => 
     array (
       'name' => 'responsable',
-      'label' => 'responsable',
+      'label' => 'Responsable',
       'type' => 'account-link',
       'default' => '',
       'info' => '',
@@ -69,7 +69,7 @@
     3 => 
     array (
       'name' => 'titre',
-      'label' => 'titre',
+      'label' => 'Titre',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -88,7 +88,7 @@
     4 => 
     array (
       'name' => 'sous_titre',
-      'label' => 'sous titre',
+      'label' => 'Sous-titre',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -107,7 +107,7 @@
     5 => 
     array (
       'name' => 'auteur',
-      'label' => 'auteur',
+      'label' => 'Auteur',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -126,7 +126,7 @@
     6 => 
     array (
       'name' => 'rubrique',
-      'label' => 'rubrique',
+      'label' => 'Rubrique',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -145,7 +145,7 @@
     7 => 
     array (
       'name' => 'chapeau',
-      'label' => 'chapeau',
+      'label' => 'Chapeau',
       'type' => 'markdown',
       'default' => '',
       'info' => '',
@@ -164,7 +164,7 @@
     8 => 
     array (
       'name' => 'corps',
-      'label' => 'corps de l\'article',
+      'label' => 'Corps de l\'article',
       'type' => 'markdown',
       'default' => '',
       'info' => '',
@@ -183,7 +183,7 @@
     9 => 
     array (
       'name' => 'notes',
-      'label' => 'notes et références',
+      'label' => 'Notes et références',
       'type' => 'markdown',
       'default' => '',
       'info' => '',
@@ -202,7 +202,7 @@
     10 => 
     array (
       'name' => 'bibliographie',
-      'label' => 'bibliographie',
+      'label' => 'Bibliographie',
       'type' => 'markdown',
       'default' => '',
       'info' => '',
@@ -221,7 +221,7 @@
     11 => 
     array (
       'name' => 'exergues',
-      'label' => 'exergues',
+      'label' => 'Exergues',
       'type' => 'repeater',
       'default' => '',
       'info' => '',
@@ -234,7 +234,7 @@
           0 => 
           array (
             'type' => 'text',
-            'label' => 'exergue',
+            'label' => 'Exergue',
           ),
         ),
       ),
@@ -248,7 +248,7 @@
     12 => 
     array (
       'name' => 'agenda_linked',
-      'label' => 'assocations à l\' agenda ',
+      'label' => 'Assocations à l\' agenda ',
       'type' => 'collectionlink',
       'default' => '',
       'info' => '',
@@ -271,7 +271,7 @@
     13 => 
     array (
       'name' => 'images',
-      'label' => 'images',
+      'label' => 'Images',
       'type' => 'repeater',
       'default' => '',
       'info' => '',
@@ -282,7 +282,7 @@
         'field' => 
         array (
           'type' => 'set',
-          'label' => 'images',
+          'label' => 'Images',
           'display' => 'name',
           'options' => 
           array (
@@ -292,19 +292,19 @@
               array (
                 'type' => 'text',
                 'name' => 'legende',
-                'label' => 'légende',
+                'label' => 'Légende',
               ),
               1 => 
               array (
                 'type' => 'text',
                 'name' => 'credits',
-                'label' => 'crédits',
+                'label' => 'Crédits',
               ),
               2 => 
               array (
                 'type' => 'image',
                 'name' => 'image',
-                'label' => 'image (format jpg)',
+                'label' => 'Image (format jpg)',
               ),
             ),
           ),

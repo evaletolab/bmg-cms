@@ -45,7 +45,7 @@
     2 => 
     array (
       'name' => 'edition',
-      'label' => '',
+      'label' => 'Édition',
       'type' => 'collectionlinkselect',
       'default' => '',
       'info' => '',
@@ -67,7 +67,7 @@
     3 => 
     array (
       'name' => 'annuel',
-      'label' => 'Thématique annuelle ',
+      'label' => 'Thématique annuelle',
       'type' => 'boolean',
       'default' => '',
       'info' => '',
@@ -87,7 +87,7 @@
     4 => 
     array (
       'name' => 'titre',
-      'label' => 'titre',
+      'label' => 'Titre',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -106,7 +106,7 @@
     5 => 
     array (
       'name' => 'soustitre',
-      'label' => 'soustitre',
+      'label' => 'Sous-titre',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -205,7 +205,7 @@
     10 => 
     array (
       'name' => 'moderation',
-      'label' => '',
+      'label' => 'Modération',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -422,7 +422,7 @@
     18 => 
     array (
       'name' => 'credit_photo',
-      'label' => 'credit photo',
+      'label' => 'Crédit photo',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -605,7 +605,7 @@
     27 => 
     array (
       'name' => 'collaboration',
-      'label' => '',
+      'label' => 'Collaboration',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -624,7 +624,7 @@
     28 => 
     array (
       'name' => 'collaboration_url',
-      'label' => '',
+      'label' => 'Collaboration URL',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -644,7 +644,7 @@
     29 => 
     array (
       'name' => 'partenaire',
-      'label' => '',
+      'label' => 'Partenaire',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -663,7 +663,7 @@
     30 => 
     array (
       'name' => 'partenaire_url',
-      'label' => '',
+      'label' => 'Partenaire URL',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -683,7 +683,7 @@
     31 => 
     array (
       'name' => 'cadre',
-      'label' => '',
+      'label' => 'Cadre',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -702,7 +702,7 @@
     32 => 
     array (
       'name' => 'cadre_url',
-      'label' => '',
+      'label' => 'Cadre URL',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -722,7 +722,7 @@
     33 => 
     array (
       'name' => 'soutien',
-      'label' => '',
+      'label' => 'Soutien',
       'type' => 'text',
       'default' => '',
       'info' => '',
@@ -741,7 +741,7 @@
     34 => 
     array (
       'name' => 'soutien_url',
-      'label' => '',
+      'label' => 'Soutien URL',
       'type' => 'text',
       'default' => '',
       'info' => '',
