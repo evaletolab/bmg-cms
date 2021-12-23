@@ -320,7 +320,7 @@
             array (
               0 => 
               array (
-                'type' => 'collectionselect',
+                'type' => 'collectionlinkselect',
                 'name' => 'localisation',
                 'label' => 'Lieu',
                 'options' => 
@@ -762,7 +762,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1634049109,
-  '_modified' => 1640275224,
+  '_modified' => 1640277306,
   'color' => '#A0D468',
   'acl' => 
   array (
