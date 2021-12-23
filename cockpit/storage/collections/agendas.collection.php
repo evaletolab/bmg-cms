@@ -393,7 +393,7 @@
       'options' => 
       array (
       ),
-      'width' => '1-2',
+      'width' => '1-3',
       'lst' => false,
       'acl' => 
       array (
@@ -401,6 +401,25 @@
       'required' => false,
     ),
     17 => 
+    array (
+      'name' => 'fichier',
+      'label' => 'Ajouter un fichier',
+      'type' => 'file',
+      'default' => '',
+      'info' => '',
+      'group' => '',
+      'localize' => false,
+      'options' => 
+      array (
+      ),
+      'width' => '1-3',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => false,
+    ),
+    18 => 
     array (
       'name' => 'credit_photo',
       'label' => 'credit photo',
@@ -412,14 +431,14 @@
       'options' => 
       array (
       ),
-      'width' => '1-2',
+      'width' => '1-3',
       'lst' => false,
       'acl' => 
       array (
       ),
       'required' => false,
     ),
-    18 => 
+    19 => 
     array (
       'name' => 'public',
       'label' => 'Public ',
@@ -438,7 +457,7 @@
       ),
       'required' => false,
     ),
-    19 => 
+    20 => 
     array (
       'name' => 'langue',
       'label' => 'Langue',
@@ -465,7 +484,7 @@
       ),
       'required' => false,
     ),
-    20 => 
+    21 => 
     array (
       'name' => 'tarif',
       'label' => 'Tarif',
@@ -485,7 +504,7 @@
       ),
       'required' => false,
     ),
-    21 => 
+    22 => 
     array (
       'name' => 'jauge',
       'label' => 'Jauge (nombre)',
@@ -505,7 +524,7 @@
       ),
       'required' => false,
     ),
-    22 => 
+    23 => 
     array (
       'name' => 'res_url',
       'label' => 'Réservation (URL)',
@@ -525,7 +544,7 @@
       ),
       'required' => false,
     ),
-    23 => 
+    24 => 
     array (
       'name' => 'res_mail',
       'label' => 'Réservation (mail)',
@@ -545,7 +564,7 @@
       ),
       'required' => false,
     ),
-    24 => 
+    25 => 
     array (
       'name' => 'res_phone',
       'label' => 'Réservations (téléphone)',
@@ -564,7 +583,7 @@
       ),
       'required' => false,
     ),
-    25 => 
+    26 => 
     array (
       'name' => 'res_autre',
       'label' => 'Réservation (autres)',
@@ -583,7 +602,7 @@
       ),
       'required' => false,
     ),
-    26 => 
+    27 => 
     array (
       'name' => 'collaboration',
       'label' => '',
@@ -602,7 +621,7 @@
       ),
       'required' => false,
     ),
-    27 => 
+    28 => 
     array (
       'name' => 'collaboration_url',
       'label' => '',
@@ -622,7 +641,7 @@
       ),
       'required' => false,
     ),
-    28 => 
+    29 => 
     array (
       'name' => 'partenaire',
       'label' => '',
@@ -641,7 +660,7 @@
       ),
       'required' => false,
     ),
-    29 => 
+    30 => 
     array (
       'name' => 'partenaire_url',
       'label' => '',
@@ -661,7 +680,7 @@
       ),
       'required' => false,
     ),
-    30 => 
+    31 => 
     array (
       'name' => 'cadre',
       'label' => '',
@@ -680,7 +699,7 @@
       ),
       'required' => false,
     ),
-    31 => 
+    32 => 
     array (
       'name' => 'cadre_url',
       'label' => '',
@@ -700,7 +719,7 @@
       ),
       'required' => false,
     ),
-    32 => 
+    33 => 
     array (
       'name' => 'soutien',
       'label' => '',
@@ -719,7 +738,7 @@
       ),
       'required' => false,
     ),
-    33 => 
+    34 => 
     array (
       'name' => 'soutien_url',
       'label' => '',
@@ -743,7 +762,7 @@
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1634049109,
-  '_modified' => 1640265247,
+  '_modified' => 1640269159,
   'color' => '#A0D468',
   'acl' => 
   array (
