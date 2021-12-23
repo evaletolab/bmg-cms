@@ -1,0 +1,15 @@
+{
+  "name": "tools",
+  "version": "1.0.0",
+  "description": "a series of js tools supporting the bmg-cms project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Olivier Evalet + David Hodgetts",
+  "license": "MIT",
+  "devDependencies": {
+    "basic-ftp": "^4.6.6",
+    "dotenv": "^10.0.0"
+  }
+}
