@@ -21,22 +21,37 @@ return [
         #'en' => 'English'
     ], */
 
-    # define additional groups
+    # define additional groups 
     'groups' => [
-        'author' => [
+        'editor' => [
+            'comments' => [ 'view' => true, 'add' => true, 'delete' => true ],
             '$admin' => false,
             '$vars' => [
                 'finder.path' => '/storage/uploads'
             ],
             'cockpit' => [
                 'backend' => true,
-                'finder' => true
+                'finder' => true,
+                'unlockresources' => true
+            ]
+        ],
+        'author' => [
+            'comments' => [ 'view' => true, 'add' => true, 'delete' => true ],
+            '$admin' => false,
+            '$vars' => [
+                'finder.path' => '/storage/uploads'
+            ],
+            'cockpit' => [
+                'backend' => true,
+                'finder' => true,
+                'unlockresources' => true
             ],
             'collections' => [
-                'manage' => true
+                'manage' => true,
+                'unlock' => true
             ],
             'singeltons' => [
-                'manage' => true
+                'manage' => false
             ]
         ]
     ],
@@ -44,7 +59,7 @@ return [
         'environment' => 'local'
     ],
     'comments' => [
-        'collections' => ['articles','agendas']
+        'collections' => ['articles','agendas'],
     ],
     'imageresize' => [
         'resize'       => true,        # (bool) default: true
