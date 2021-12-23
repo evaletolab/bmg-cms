@@ -48,7 +48,6 @@ return [
             ],
             'collections' => [
                 'manage' => true,
-                'unlock' => true
             ],
             'singeltons' => [
                 'manage' => false
