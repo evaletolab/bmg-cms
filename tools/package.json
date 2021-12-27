@@ -4,6 +4,7 @@
   "description": "a series of js tools supporting the bmg-cms project",
   "main": "index.js",
   "scripts": {
+    "push": "node push.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Olivier Evalet + David Hodgetts",
