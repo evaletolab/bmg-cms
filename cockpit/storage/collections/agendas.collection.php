@@ -242,6 +242,33 @@
     ),
     12 => 
     array (
+      'name' => 'langue',
+      'label' => 'Langue',
+      'type' => 'select',
+      'default' => '',
+      'info' => '',
+      'group' => '4.Propriétés',
+      'localize' => false,
+      'options' => 
+      array (
+        'options' => 
+        array (
+          0 => 'fr',
+          1 => 'en',
+          2 => 'de',
+          3 => 'it',
+        ),
+        'default' => 'fr',
+      ),
+      'width' => '1-3',
+      'lst' => false,
+      'acl' => 
+      array (
+      ),
+      'required' => false,
+    ),
+    13 => 
+    array (
       'name' => 'url',
       'label' => 'URL événement ',
       'type' => 'text',
@@ -260,7 +287,7 @@
       ),
       'required' => false,
     ),
-    13 => 
+    14 => 
     array (
       'name' => 'text',
       'label' => 'Rédact.',
@@ -279,7 +306,7 @@
       ),
       'required' => true,
     ),
-    14 => 
+    15 => 
     array (
       'name' => 'text2',
       'label' => 'Rédact.2',
@@ -298,7 +325,7 @@
       ),
       'required' => false,
     ),
-    15 => 
+    16 => 
     array (
       'name' => 'localisation',
       'label' => 'Occurence',
@@ -381,7 +408,7 @@
       ),
       'required' => true,
     ),
-    16 => 
+    17 => 
     array (
       'name' => 'photo',
       'label' => 'Photo (format jpg)',
@@ -400,7 +427,7 @@
       ),
       'required' => false,
     ),
-    17 => 
+    18 => 
     array (
       'name' => 'fichier',
       'label' => 'Ajouter un fichier',
@@ -419,7 +446,7 @@
       ),
       'required' => false,
     ),
-    18 => 
+    19 => 
     array (
       'name' => 'credit_photo',
       'label' => 'Crédit photo',
@@ -438,47 +465,77 @@
       ),
       'required' => false,
     ),
-    19 => 
-    array (
-      'name' => 'public',
-      'label' => 'Public ',
-      'type' => 'text',
-      'default' => '',
-      'info' => 'Âge',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-4',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
     20 => 
     array (
-      'name' => 'langue',
-      'label' => 'Langue',
-      'type' => 'select',
+      'name' => 'reservation',
+      'label' => 'Réservation',
+      'type' => 'set-ext',
       'default' => '',
       'info' => '',
       'group' => '4.Propriétés',
       'localize' => false,
       'options' => 
       array (
-        'options' => 
+        'fields' => 
         array (
-          0 => 'fr',
-          1 => 'en',
-          2 => 'de',
-          3 => 'it',
+          0 => 
+          array (
+            'name' => 'res_mail',
+            'label' => 'Réservation (mail)',
+            'width' => '1-3',
+            'type' => 'text',
+            'options' => 
+            array (
+              'type' => 'email',
+            ),
+          ),
+          1 => 
+          array (
+            'name' => 'res_phone',
+            'label' => 'Réservation (téléphone)',
+            'width' => '1-3',
+            'type' => 'text',
+          ),
+          2 => 
+          array (
+            'name' => 'res_autre',
+            'label' => 'Réservation (autre)',
+            'width' => '1-3',
+            'type' => 'text',
+          ),
+          3 => 
+          array (
+            'name' => 'tarif',
+            'label' => 'Tarif',
+            'width' => '1-3',
+            'type' => 'text',
+            'options' => 
+            array (
+              'type' => 'number',
+            ),
+          ),
+          4 => 
+          array (
+            'name' => 'jauge',
+            'label' => 'Jauge (nombre)',
+            'width' => '1-3',
+            'type' => 'text',
+            'options' => 
+            array (
+              'type' => 'number',
+            ),
+          ),
+          5 => 
+          array (
+            'name' => 'public',
+            'label' => 'Âge',
+            'width' => '1-3',
+            'type' => 'text',
+          ),
         ),
-        'default' => 'fr',
       ),
-      'width' => '1-4',
-      'lst' => false,
+      'width' => '1-1',
+      'lst' => true,
       'acl' => 
       array (
       ),
@@ -486,283 +543,86 @@
     ),
     21 => 
     array (
-      'name' => 'tarif',
-      'label' => 'Tarif',
-      'type' => 'text',
+      'name' => 'partenaires',
+      'label' => 'Partenaires',
+      'type' => 'set-ext',
       'default' => '',
       'info' => '',
       'group' => '4.Propriétés',
       'localize' => false,
       'options' => 
       array (
-        'type' => 'number',
+        'fields' => 
+        array (
+          0 => 
+          array (
+            'name' => 'soutien',
+            'label' => 'Soutien',
+            'width' => '1-2',
+            'type' => 'text',
+          ),
+          1 => 
+          array (
+            'name' => 'soutien_url',
+            'label' => 'Soutien URL',
+            'width' => '1-2',
+            'type' => 'text',
+          ),
+          2 => 
+          array (
+            'name' => 'cadre',
+            'label' => 'Cadre',
+            'width' => '1-2',
+            'type' => 'text',
+          ),
+          3 => 
+          array (
+            'name' => 'cadre_url',
+            'label' => 'Cadre URL',
+            'width' => '1-2',
+            'type' => 'text',
+          ),
+          4 => 
+          array (
+            'name' => 'partenaire',
+            'label' => 'Partenaire',
+            'width' => '1-2',
+            'type' => 'text',
+          ),
+          5 => 
+          array (
+            'name' => 'partenaire_url',
+            'label' => 'Partenaire URL',
+            'width' => '1-2',
+            'type' => 'text',
+          ),
+          6 => 
+          array (
+            'name' => 'collaboration',
+            'label' => 'Collaboration',
+            'width' => '1-2',
+            'type' => 'text',
+          ),
+          7 => 
+          array (
+            'name' => 'collaboration_url',
+            'label' => 'Collaboration URL',
+            'width' => '1-2',
+            'type' => 'text',
+          ),
+        ),
       ),
-      'width' => '1-4',
-      'lst' => false,
+      'width' => '1-1',
+      'lst' => true,
       'acl' => 
       array (
       ),
-      'required' => false,
-    ),
-    22 => 
-    array (
-      'name' => 'jauge',
-      'label' => 'Jauge (nombre)',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-        'type' => 'number',
-      ),
-      'width' => '1-4',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    23 => 
-    array (
-      'name' => 'res_url',
-      'label' => 'Réservation (URL)',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-        'type' => 'url',
-      ),
-      'width' => '1-2',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    24 => 
-    array (
-      'name' => 'res_mail',
-      'label' => 'Réservation (mail)',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-        'type' => 'email',
-      ),
-      'width' => '1-2',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    25 => 
-    array (
-      'name' => 'res_phone',
-      'label' => 'Réservations (téléphone)',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-2',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    26 => 
-    array (
-      'name' => 'res_autre',
-      'label' => 'Réservation (autres)',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-2',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    27 => 
-    array (
-      'name' => 'collaboration',
-      'label' => 'Collaboration',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-3',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    28 => 
-    array (
-      'name' => 'collaboration_url',
-      'label' => 'Collaboration URL',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-        'type' => 'url',
-      ),
-      'width' => '2-3',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    29 => 
-    array (
-      'name' => 'partenaire',
-      'label' => 'Partenaire',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-3',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    30 => 
-    array (
-      'name' => 'partenaire_url',
-      'label' => 'Partenaire URL',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-        'type' => 'url',
-      ),
-      'width' => '2-3',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    31 => 
-    array (
-      'name' => 'cadre',
-      'label' => 'Cadre',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-3',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    32 => 
-    array (
-      'name' => 'cadre_url',
-      'label' => 'Cadre URL',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-        'type' => 'url',
-      ),
-      'width' => '2-3',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    33 => 
-    array (
-      'name' => 'soutien',
-      'label' => 'Soutien',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-      ),
-      'width' => '1-3',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
-    ),
-    34 => 
-    array (
-      'name' => 'soutien_url',
-      'label' => 'Soutien URL',
-      'type' => 'text',
-      'default' => '',
-      'info' => '',
-      'group' => '4.Propriétés',
-      'localize' => false,
-      'options' => 
-      array (
-        'type' => 'url',
-      ),
-      'width' => '2-3',
-      'lst' => false,
-      'acl' => 
-      array (
-      ),
-      'required' => false,
     ),
   ),
   'sortable' => false,
   'in_menu' => false,
   '_created' => 1634049109,
-  '_modified' => 1640277306,
+  '_modified' => 1642599384,
   'color' => '#A0D468',
   'acl' => 
   array (
