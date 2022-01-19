@@ -1,3 +1,7 @@
+# Live
+
+* https://bmg-cms.demainlalune.ch/cockpit
+
 # install cockpit,
 
 * destination directory `./cockpit`
